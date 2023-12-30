@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Party Time</title>
+</head>
+<body>
+  <header id="Main_page">
+
+        <h1>PARTY TIME</h1>
+    
+    <button class="navbar-button" onclick="location.href='#Main_page'">Main page</button>     
+      <button class="navbar-button" onclick="location.href='#services'">Services</button>
+      <button class="navbar-button" onclick="location.href='#packages'">Packages</button>
+      <button class="navbar-button" onclick="location.href='#contact'">Contact us</button>
+      <button class="navbar-button" onclick="location.href='#About_us'">About us</button>
+    
+</header>
+  
+   <h2>Services</h2>
+  <p style="text-align: center;">for booking and more details contact us</p>
+  <div class="container" id="services">
+      <div class="service-box">
+          <img src="wd1.png" alt="Themed events">
+          <h3>Themed events</h3>
+        <p>Choose any theme and we will do it for you</p>
+
+        <button class="navbar-button" onclick="location.href='#contact'">Contact us</button>
+        
+        </div>
+      
+      <div class="service-box">
+          <img src="wd2.jfif" alt="Marquee parties">
+          <h3>Marquee parties</h3>
+        <p>We cam make large tent set up for an outdoor party, reception, or exhibition.</p>
+
+        <button class="navbar-button" onclick="location.href='#contact'">Contact us</button>
+
+      </div>
+      <div class="service-box">
+          <img src="wd3.jfif" alt="Special celebrations">
+          <h3>Special celebrations</h3>
+        <p>We can do any type of parties like weddings, graduation ceremony and so on.</p>
+
+        <button class="navbar-button" onclick="location.href='#contact'">Contact us</button>
+
+      </div>
+      <div class="service-box">
+          <img src="wd4.jpg" alt="Entertainment">
+          <h3>Entertainment</h3>
+        <p>We can set up concerts, conferences, and so on.</p>
+
+        <button class="navbar-button" onclick="location.href='#contact'">Contact us</button>
+        
+      </div>
+      <div class="service-box">
+          <img src="wd5.jfif" alt="Entertainment">
+          <h3>Other services</h3>
+        <p>• fundraisers</p>
+          <p>• bespoke catering</p>
+            <p>• themes and props</p>
+              <p>• invitations and printworks</p>
+                <p>• sound and lighting</p>
+
+        <button class="navbar-button" onclick="location.href='#contact'">Contact us</button>
+
+  </div>
+    </div>
+  <div class="divider">
+    <div class="divider-line"></div>
+    <span class="divider-text">Party Time</span>
+    <div class="divider-line"></div>
+  </div>
+
+      <h2>Packages</h2>
+  <div class="container" id="packages">
+      <div class="Packages-box" id="bronze">
+          <img src="wd7.PNG" alt="Bronze">
+          <h3>Bronze</h3>
+          <p>• Room decorations – balloons, banners</p>
+          <p>• Table decorations – centrepieces, gifts</p>
+          <p>• DJ entertainment</p>
+          <p>• Cold buffet.</p>
+        <button class="select" onclick="location.href='#contact'">Select</button>
+      </div>
+      <div class="Packages-box" id="silver">
+          <img src="wd8.PNG" alt="Silver">
+          <h3>Silver</h3>
+          <p>all from Bronze package plus:</p>
+        <p>• Invitation design and handling</p>
+        <p>• Party cost clear up</p>
+        <p>• Live band entertainment</p>
+        <p>• Cold buffet and soft drinks</p>
+        <button class="select" onclick="location.href='#contact'">Select</button>
+      </div>
+      <div class="Packages-box" id="gold">
+          <img src="wd9.PNG" alt="Gold">
+          <h3>Gold</h3>
+        <p>all from Silver package plus:</p>
+        <p>• Staff in attendance to ensure complete perfection</p>
+        <p>• Finding guest accommodation, booking transport</p>
+        <p>• Live band entertainment and magician</p>
+        <p>• Hot and Cold buffet and soft drinks</p>
+        <button class="select" onclick="location.href='#contact'">Select</button>
+      </div>
+      <div class="Packages-box" id="custom">
+          <img src="wd10.jpg" alt="Custom">
+          <h3>Custom</h3>
+          <p>Custom packages are available for specific parties, additional 
+          decorations and additional staff. Clients must contact the company to 
+          arrange any custom packages.</p>
+        <button class="select" onclick="location.href='#contact'">select</button>
+      </div>
+      </div>
+  </div>
+     
+
+
+        <div class="divider">
+          <div class="divider-line"></div>
+          <span class="divider-text">Party Time</span>
+          <div class="divider-line"></div>
+        </div>
+
+  <div class="contact-box" id="contact">
+      <h2>Contact Us</h2>
+      <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+
+        <label for="eventDate">Event Date:</label><br>
+        <input type="date" id="eventDate" name="eventDate"><br>
+        
+
+        <label for="eventCategory">Event type:</label><br>
+        <select id="eventCategory" name="eventCategory">
+            <option value="education">Themed event</option>
+          <option value="education">Marquee parties</option>
+            <option value="entertainment">Special celebrations</option>
+            <option value="sports">Entertainment</option>
+            <option value="other">Other type (write in the message)</option>
+        </select><br>
+
+        <label for="packageCategory">Choose package:</label><br>
+        <select id="packageCategory" name="packageCategory">
+            <option value="bronze">Bronze</option>
+            <option value="silver">Silver</option>
+            <option value="gold">Gold</option>
+            <option value="platinum">Custom (write in the message)</option>
+        </select><br>
+
+        <label for="budget">Budget:</label><br>
+        <select id="budget" name="budget">
+            <option value="1000">Below 1000</option>
+            <option value="2000">1000 - 2000</option>
+            <option value="3000">2000 - 3000</option>
+            <option value="4000">3000 - 4000</option>
+            <option value="5000">4000 - 5000</option>
+            <option value="5000">Over 5000</option>
+        </select><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+
+          <button class="select">Send</button>
+      </form>
+  </div>
+  <footer id="About_us">
+      <div class="footer-left">
+          <h3>About Us</h3>
+      </div>
+      <div class="footer-right">
+          <p>Party Time is a company that organises parties.The company has recently seen an increase in demand for the services and products it provides, because it provide high quality work.</p>
+      </div>
+  </footer>
+
+</body>
+</html>
